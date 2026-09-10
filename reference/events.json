@@ -1,0 +1,10 @@
+{
+  "station_timezone": "Asia/Shanghai",
+  "power_sign": "positive_is_discharge",
+  "events": [
+    {"event_id": "cmd-17", "kind": "dispatch", "sequence": 17, "occurred_at": "2026-08-18T23:58:00+08:00", "power_kw": 850},
+    {"event_id": "soc-42", "kind": "telemetry", "sequence": 42, "occurred_at": "2026-08-18T23:57:30+08:00", "soc_percent": 24.5},
+    {"event_id": "cmd-17", "kind": "dispatch", "sequence": 17, "occurred_at": "2026-08-18T23:58:00+08:00", "power_kw": 850},
+    {"event_id": "soc-41", "kind": "telemetry", "sequence": 41, "occurred_at": "2026-08-18T23:56:30+08:00", "soc_percent": 25.1}
+  ]
+}
