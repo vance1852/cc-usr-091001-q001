@@ -1,0 +1,8 @@
+{
+  "note": "交班（00:00）之后才补传到站的旧数据：soc-42 在 cmd-17 之前 30 秒发生却迟到 4 分钟；soc-44 是更早的补传；cmd-17 第三次重送。",
+  "events": [
+    {"event_id": "soc-42", "kind": "telemetry", "sequence": 42, "occurred_at": "2026-08-18T23:57:30+08:00", "received_at": "2026-08-19T00:02:10+08:00", "soc_percent": 24.5},
+    {"event_id": "soc-44", "kind": "telemetry", "sequence": 44, "occurred_at": "2026-08-18T23:54:00+08:00", "received_at": "2026-08-19T00:03:05+08:00", "soc_percent": 26.4},
+    {"event_id": "cmd-17", "kind": "dispatch", "sequence": 17, "occurred_at": "2026-08-18T23:58:00+08:00", "received_at": "2026-08-19T00:04:00+08:00", "power_kw": 850}
+  ]
+}

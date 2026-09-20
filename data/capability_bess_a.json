@@ -1,0 +1,16 @@
+{
+  "profile_id": "BESS-A-2026",
+  "rated_discharge_kw": 1000,
+  "rated_charge_kw": 1000,
+  "ramp_kw_per_s": 7,
+  "capacity_kwh": 2000,
+  "soc_floor_percent": 10,
+  "soc_ceiling_percent": 100,
+  "safety_margin_percent": 5,
+  "command_window_s": 900,
+  "deadband_kw": 30,
+  "discharge_efficiency": 0.95,
+  "charge_efficiency": 1.0,
+  "effective_from": "2026-08-18T22:00:00+08:00",
+  "effective_to": "2026-08-19T06:00:00+08:00"
+}

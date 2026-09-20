@@ -1,0 +1,20 @@
+{
+  "shift_id": "night-20260818",
+  "profile_id": "BESS-A-2026",
+  "starts_at": "2026-08-18T22:00:00+08:00",
+  "ends_at": "2026-08-19T06:00:00+08:00",
+  "handover_at": "2026-08-19T00:00:00+08:00",
+  "note": "交班前（00:00）实际到站的一批：含 cmd-17 重送与自带生效窗口的 cmd-13。功率正=放电。",
+  "events": [
+    {"event_id": "cmd-13", "kind": "dispatch", "sequence": 13, "occurred_at": "2026-08-18T23:52:00+08:00", "received_at": "2026-08-18T23:52:01+08:00", "power_kw": 100, "valid_from": "2026-08-18T23:50:00+08:00", "valid_to": "2026-08-18T23:51:30+08:00"},
+    {"event_id": "soc-40", "kind": "telemetry", "sequence": 40, "occurred_at": "2026-08-18T23:55:00+08:00", "received_at": "2026-08-18T23:55:02+08:00", "soc_percent": 26.0},
+    {"event_id": "cmd-15", "kind": "dispatch", "sequence": 15, "occurred_at": "2026-08-18T23:55:30+08:00", "received_at": "2026-08-18T23:55:31+08:00", "power_kw": 200},
+    {"event_id": "soc-41", "kind": "telemetry", "sequence": 41, "occurred_at": "2026-08-18T23:56:30+08:00", "received_at": "2026-08-18T23:56:33+08:00", "soc_percent": 25.1},
+    {"event_id": "cmd-16", "kind": "dispatch", "sequence": 16, "occurred_at": "2026-08-18T23:57:00+08:00", "received_at": "2026-08-18T23:57:02+08:00", "power_kw": 400},
+    {"event_id": "cmd-17", "kind": "dispatch", "sequence": 17, "occurred_at": "2026-08-18T23:58:00+08:00", "received_at": "2026-08-18T23:58:05+08:00", "power_kw": 850},
+    {"event_id": "cmd-17", "kind": "dispatch", "sequence": 17, "occurred_at": "2026-08-18T23:58:00+08:00", "received_at": "2026-08-18T23:58:05+08:00", "power_kw": 850},
+    {"event_id": "soc-43", "kind": "telemetry", "sequence": 43, "occurred_at": "2026-08-18T23:58:30+08:00", "received_at": "2026-08-18T23:58:35+08:00", "soc_percent": 14.2},
+    {"event_id": "cmd-18", "kind": "dispatch", "sequence": 18, "occurred_at": "2026-08-18T23:58:30+08:00", "received_at": "2026-08-18T23:58:31+08:00", "power_kw": -100},
+    {"event_id": "cmd-19", "kind": "dispatch", "sequence": 19, "occurred_at": "2026-08-18T23:59:30+08:00", "received_at": "2026-08-18T23:59:32+08:00", "power_kw": 1500}
+  ]
+}
