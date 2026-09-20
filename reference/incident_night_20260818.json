@@ -1,0 +1,28 @@
+{
+  "station_id": "ess-shared-01",
+  "station_timezone": "Asia/Shanghai",
+  "power_sign": "positive_is_discharge",
+  "shift": {
+    "shift_id": "night-20260818",
+    "start_at": "2026-08-18T22:00:00+08:00",
+    "end_at": "2026-08-19T00:00:00+08:00"
+  },
+  "capability": {
+    "rated_power_kw": 1000.0,
+    "ramp_kw_per_s": 20.0,
+    "capacity_kwh": 2000.0,
+    "reserve_soc_pct": 20.0,
+    "soc_max_pct": 95.0,
+    "dispatch_horizon_min": 15.0,
+    "power_max_age_s": 300.0,
+    "soc_max_age_s": 300.0
+  },
+  "events": [
+    {"event_id": "p-57",   "kind": "telemetry", "measure": "power", "sequence": 57, "occurred_at": "2026-08-18T23:55:00+08:00", "received_at": "2026-08-18T23:55:01+08:00", "power_kw": -300.0},
+    {"event_id": "soc-42", "kind": "telemetry", "measure": "soc",   "sequence": 42, "occurred_at": "2026-08-18T23:57:30+08:00", "received_at": "2026-08-18T23:57:31+08:00", "soc_percent": 24.5},
+    {"event_id": "cmd-17", "kind": "dispatch",                    "sequence": 17, "occurred_at": "2026-08-18T23:58:00+08:00", "received_at": "2026-08-18T23:58:00+08:00", "power_kw": 850.0},
+    {"event_id": "cmd-17", "kind": "dispatch",                    "sequence": 17, "occurred_at": "2026-08-18T23:58:00+08:00", "received_at": "2026-08-18T23:58:01+08:00", "power_kw": 850.0},
+    {"event_id": "soc-41", "kind": "telemetry", "measure": "soc",   "sequence": 41, "occurred_at": "2026-08-18T23:56:30+08:00", "received_at": "2026-08-18T23:59:05+08:00", "soc_percent": 25.1},
+    {"event_id": "p-59",   "kind": "telemetry", "measure": "power", "sequence": 59, "occurred_at": "2026-08-18T23:57:30+08:00", "received_at": "2026-08-19T00:03:10+08:00", "power_kw": 0.0}
+  ]
+}
